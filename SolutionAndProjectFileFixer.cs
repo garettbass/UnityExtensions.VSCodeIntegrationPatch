@@ -79,7 +79,7 @@ namespace UnityExtensions
             return null;
         }
 
-        [UnityEditor.MenuItem("Solution/Fix")]
+        // [UnityEditor.MenuItem("Solution/Fix")]
         private static void FixSolutionFile()
         {
             var solutionPath = FindSolutionFile();

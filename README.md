@@ -1,6 +1,6 @@
 # UnityExtensions.VSCodeIntegrationPatch
 
-This library attempts to resolve two issues when using Visual Studio Code as the external editor with Unity.
+Fixes two issues that prevent the `C# for Visual Studio Code` plugin from providing Intellisense and refactoring features when editing your Unity project's `C#` scripts.
 
 ## 1. Malformed Solution File
 Some versions of Unity generate a solution file, which are not accepted by `msbuild`.  Specifically, Unity may write the project entries in the following format, where "Example" is the name of the Unity project, and the solution file is `Example.sln`:
